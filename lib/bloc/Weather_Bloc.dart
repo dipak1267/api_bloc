@@ -7,7 +7,7 @@ import 'Weather_repo.dart';
 
 class Weatherevent extends Equatable{
   @override
-  List<Object> get props =>[];
+  List<Object?> get props =>[];
 }
 
 class Fetchwether extends Weatherevent{
@@ -22,7 +22,7 @@ class resetwether extends Weatherevent{}
 
 class WeatherState extends Equatable{
   @override
-  List<Object> get props =>[];
+  List<Object?> get props =>[];
 }
 
 class WetherIsnotSearched extends WeatherState{
